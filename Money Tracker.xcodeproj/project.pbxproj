@@ -15,6 +15,16 @@
 		CC67082A2B69F9A900BCB0C3 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708292B69F9A900BCB0C3 /* Date+Ext.swift */; };
 		CC67082C2B69FA7A00BCB0C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67082B2B69FA7A00BCB0C3 /* Constants.swift */; };
 		CC67082E2B69FA9F00BCB0C3 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67082D2B69FA9F00BCB0C3 /* IntroView.swift */; };
+		CC6708302B69FEE400BCB0C3 /* RecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67082F2B69FEE400BCB0C3 /* RecentView.swift */; };
+		CC6708322B69FEEB00BCB0C3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708312B69FEEB00BCB0C3 /* SearchView.swift */; };
+		CC6708342B69FEFB00BCB0C3 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708332B69FEFB00BCB0C3 /* GraphView.swift */; };
+		CC6708362B69FF0700BCB0C3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708352B69FF0700BCB0C3 /* SettingView.swift */; };
+		CC6708382B69FF2F00BCB0C3 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708372B69FF2F00BCB0C3 /* Tab.swift */; };
+		CC67083A2B69FFF200BCB0C3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708392B69FFF200BCB0C3 /* Category.swift */; };
+		CC67083C2B6A00FA00BCB0C3 /* LockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67083B2B6A00F900BCB0C3 /* LockViewModel.swift */; };
+		CC6708402B6A04FB00BCB0C3 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67083F2B6A04FB00BCB0C3 /* Transaction.swift */; };
+		CC6708422B6A051D00BCB0C3 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708412B6A051D00BCB0C3 /* TintColor.swift */; };
+		CC6708442B6A078900BCB0C3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708432B6A078900BCB0C3 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +37,16 @@
 		CC6708292B69F9A900BCB0C3 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		CC67082B2B69FA7A00BCB0C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CC67082D2B69FA9F00BCB0C3 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		CC67082F2B69FEE400BCB0C3 /* RecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentView.swift; sourceTree = "<group>"; };
+		CC6708312B69FEEB00BCB0C3 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		CC6708332B69FEFB00BCB0C3 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		CC6708352B69FF0700BCB0C3 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		CC6708372B69FF2F00BCB0C3 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		CC6708392B69FFF200BCB0C3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CC67083B2B6A00F900BCB0C3 /* LockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewModel.swift; sourceTree = "<group>"; };
+		CC67083F2B6A04FB00BCB0C3 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		CC6708412B6A051D00BCB0C3 /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
+		CC6708432B6A078900BCB0C3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +102,8 @@
 		CC6708232B69F74A00BCB0C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CC67082D2B69FA9F00BCB0C3 /* IntroView.swift */,
+				CC67083E2B6A045F00BCB0C3 /* Components */,
+				CC67083D2B6A045700BCB0C3 /* TabView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,6 +111,7 @@
 		CC6708242B69F75000BCB0C3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CC67083B2B6A00F900BCB0C3 /* LockViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -97,6 +119,10 @@
 		CC6708252B69F75F00BCB0C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CC6708372B69FF2F00BCB0C3 /* Tab.swift */,
+				CC6708392B69FFF200BCB0C3 /* Category.swift */,
+				CC67083F2B6A04FB00BCB0C3 /* Transaction.swift */,
+				CC6708412B6A051D00BCB0C3 /* TintColor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,6 +135,26 @@
 				CC67082B2B69FA7A00BCB0C3 /* Constants.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CC67083D2B6A045700BCB0C3 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				CC67082F2B69FEE400BCB0C3 /* RecentView.swift */,
+				CC6708312B69FEEB00BCB0C3 /* SearchView.swift */,
+				CC6708332B69FEFB00BCB0C3 /* GraphView.swift */,
+				CC6708352B69FF0700BCB0C3 /* SettingView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		CC67083E2B6A045F00BCB0C3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CC67082D2B69FA9F00BCB0C3 /* IntroView.swift */,
+				CC6708432B6A078900BCB0C3 /* CardView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,12 +227,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6708402B6A04FB00BCB0C3 /* Transaction.swift in Sources */,
 				CC67082C2B69FA7A00BCB0C3 /* Constants.swift in Sources */,
+				CC6708362B69FF0700BCB0C3 /* SettingView.swift in Sources */,
 				CC6708182B69F72100BCB0C3 /* ContentView.swift in Sources */,
+				CC6708342B69FEFB00BCB0C3 /* GraphView.swift in Sources */,
 				CC6708162B69F72100BCB0C3 /* Money_TrackerApp.swift in Sources */,
+				CC6708382B69FF2F00BCB0C3 /* Tab.swift in Sources */,
 				CC6708282B69F78800BCB0C3 /* View+Ext.swift in Sources */,
+				CC6708322B69FEEB00BCB0C3 /* SearchView.swift in Sources */,
 				CC67082A2B69F9A900BCB0C3 /* Date+Ext.swift in Sources */,
+				CC6708302B69FEE400BCB0C3 /* RecentView.swift in Sources */,
 				CC67082E2B69FA9F00BCB0C3 /* IntroView.swift in Sources */,
+				CC67083C2B6A00FA00BCB0C3 /* LockViewModel.swift in Sources */,
+				CC6708422B6A051D00BCB0C3 /* TintColor.swift in Sources */,
+				CC6708442B6A078900BCB0C3 /* CardView.swift in Sources */,
+				CC67083A2B69FFF200BCB0C3 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
