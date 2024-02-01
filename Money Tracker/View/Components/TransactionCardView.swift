@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct TransactionCardView: View {
+    @Environment(\.modelContext) private var context
+    
     var transaction: Transaction
-    var showCategory: Bool = true
+    var showCategory: Bool = false
     var body: some View {
         SwipeActionModel(cornerRadius: 10, direction: .trailing) {
-            HStack {
+            HStack(spacing: 12) {
                 Text("\(String(transaction.title.prefix(1)))")
                     .font(.title)
                     .fontWeight(.semibold)
@@ -46,19 +48,17 @@ struct TransactionCardView: View {
                 
                 Text("\(currencyString(transaction.amount, allowedDigits: 1))")
                     .fontWeight(.semibold)
+                    .foregroundStyle(Color.primary)
             }
             .padding(.horizontal, 15)
             .padding(.vertical, 10)
             .background(.background, in: .rect(cornerRadius: 10))
         } actions: {
             Action(tint: .red, icon: "trash") {
-                // Delete Transaction Card View:: Later
-                
+                // Delete Transaction Card View
+                context.delete(transaction)
             }
         }
     }
 }
 
-#Preview {
-    TransactionCardView(transaction: sampleTransactions[1])
-}

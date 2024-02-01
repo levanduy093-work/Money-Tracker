@@ -28,6 +28,7 @@
 		CC6708462B6A284700BCB0C3 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708452B6A284700BCB0C3 /* DateFilterView.swift */; };
 		CC6708482B6B414B00BCB0C3 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708472B6B414B00BCB0C3 /* TransactionCardView.swift */; };
 		CC67084A2B6B423300BCB0C3 /* SwipeActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708492B6B423300BCB0C3 /* SwipeActionModel.swift */; };
+		CC67084C2B6B817300BCB0C3 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67084B2B6B817300BCB0C3 /* TransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		CC6708452B6A284700BCB0C3 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
 		CC6708472B6B414B00BCB0C3 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
 		CC6708492B6B423300BCB0C3 /* SwipeActionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionModel.swift; sourceTree = "<group>"; };
+		CC67084B2B6B817300BCB0C3 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				CC6708432B6A078900BCB0C3 /* CardView.swift */,
 				CC6708452B6A284700BCB0C3 /* DateFilterView.swift */,
 				CC6708472B6B414B00BCB0C3 /* TransactionCardView.swift */,
+				CC67084B2B6B817300BCB0C3 /* TransactionView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				CC67082E2B69FA9F00BCB0C3 /* IntroView.swift in Sources */,
 				CC67083C2B6A00FA00BCB0C3 /* LockViewModel.swift in Sources */,
 				CC6708422B6A051D00BCB0C3 /* TintColor.swift in Sources */,
+				CC67084C2B6B817300BCB0C3 /* TransactionView.swift in Sources */,
 				CC6708442B6A078900BCB0C3 /* CardView.swift in Sources */,
 				CC67083A2B69FFF200BCB0C3 /* Category.swift in Sources */,
 			);
