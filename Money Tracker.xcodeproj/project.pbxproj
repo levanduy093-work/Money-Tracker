@@ -26,6 +26,8 @@
 		CC6708422B6A051D00BCB0C3 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708412B6A051D00BCB0C3 /* TintColor.swift */; };
 		CC6708442B6A078900BCB0C3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708432B6A078900BCB0C3 /* CardView.swift */; };
 		CC6708462B6A284700BCB0C3 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708452B6A284700BCB0C3 /* DateFilterView.swift */; };
+		CC6708482B6B414B00BCB0C3 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708472B6B414B00BCB0C3 /* TransactionCardView.swift */; };
+		CC67084A2B6B423300BCB0C3 /* SwipeActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708492B6B423300BCB0C3 /* SwipeActionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		CC6708412B6A051D00BCB0C3 /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
 		CC6708432B6A078900BCB0C3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CC6708452B6A284700BCB0C3 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		CC6708472B6B414B00BCB0C3 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		CC6708492B6B423300BCB0C3 /* SwipeActionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				CC67083B2B6A00F900BCB0C3 /* LockViewModel.swift */,
+				CC6708492B6B423300BCB0C3 /* SwipeActionModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				CC67082D2B69FA9F00BCB0C3 /* IntroView.swift */,
 				CC6708432B6A078900BCB0C3 /* CardView.swift */,
 				CC6708452B6A284700BCB0C3 /* DateFilterView.swift */,
+				CC6708472B6B414B00BCB0C3 /* TransactionCardView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -233,8 +239,10 @@
 				CC6708402B6A04FB00BCB0C3 /* Transaction.swift in Sources */,
 				CC67082C2B69FA7A00BCB0C3 /* Constants.swift in Sources */,
 				CC6708362B69FF0700BCB0C3 /* SettingView.swift in Sources */,
+				CC67084A2B6B423300BCB0C3 /* SwipeActionModel.swift in Sources */,
 				CC6708182B69F72100BCB0C3 /* ContentView.swift in Sources */,
 				CC6708342B69FEFB00BCB0C3 /* GraphView.swift in Sources */,
+				CC6708482B6B414B00BCB0C3 /* TransactionCardView.swift in Sources */,
 				CC6708462B6A284700BCB0C3 /* DateFilterView.swift in Sources */,
 				CC6708162B69F72100BCB0C3 /* Money_TrackerApp.swift in Sources */,
 				CC6708382B69FF2F00BCB0C3 /* Tab.swift in Sources */,

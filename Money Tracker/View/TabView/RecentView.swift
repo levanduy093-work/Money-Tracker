@@ -12,6 +12,7 @@ struct RecentView: View {
     @State private var showFilterView: Bool = false
     @State private var startDate: Date = .now.startOfMonth
     @State private var endDate: Date = .now.endOfMonth
+    @State private var selectedCategory: Category = .expense
     
     @Namespace private var animation
     
@@ -21,7 +22,7 @@ struct RecentView: View {
             
             NavigationStack {
                 ScrollView(.vertical) {
-                    LazyVStack {
+                    LazyVStack(spacing: 10, pinnedViews: [.sectionHeaders]) {
                         Section {
                             // Date filter button
                             Button(action: {
@@ -32,6 +33,15 @@ struct RecentView: View {
                                     .font(.caption2)
                             })
                             .hSpacing(.leading)
+                            
+                            CardView(income: 999, expense: 666)
+                            
+                            CustomSegmentedControl()
+                            
+                            ForEach(sampleTransactions.filter({ $0.category == selectedCategory.rawValue})) { transaction in
+                                
+                            }
+                            
                         } header: {
                             HeaderView(size)
                         }
@@ -120,6 +130,32 @@ struct RecentView: View {
     func headerBGOpacity(_ size: CGSize, proxy: GeometryProxy) -> CGFloat {
         let minY = proxy.frame(in: .scrollView).minY + safeArea.top
         return minY > 0 ? 0 : (-minY / 15)
+    }
+    
+    @ViewBuilder
+    func CustomSegmentedControl() -> some View {
+        HStack {
+            ForEach(Category.allCases, id: \.rawValue) { category in
+                Text(category.rawValue)
+                    .hSpacing()
+                    .padding(.vertical, 10)
+                    .background {
+                        if category == selectedCategory {
+                            Capsule()
+                                .fill(.background)
+                                .matchedGeometryEffect(id: "ACTIVATE", in: animation)
+                        }
+                    }
+                    .contentShape(.capsule)
+                    .onTapGesture {
+                        withAnimation {
+                            selectedCategory = category
+                        }
+                    }
+            }
+        }
+        .background(.gray.opacity(0.15), in: .capsule)
+        .padding(.top, 5)
     }
 }
 
