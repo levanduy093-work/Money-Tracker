@@ -39,7 +39,7 @@ struct RecentView: View {
                             CustomSegmentedControl()
                             
                             ForEach(sampleTransactions.filter({ $0.category == selectedCategory.rawValue})) { transaction in
-                                
+                                TransactionCardView(transaction: transaction)
                             }
                             
                         } header: {
@@ -148,7 +148,7 @@ struct RecentView: View {
                     }
                     .contentShape(.capsule)
                     .onTapGesture {
-                        withAnimation {
+                        withAnimation(.snappy) {
                             selectedCategory = category
                         }
                     }
