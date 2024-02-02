@@ -37,16 +37,20 @@ struct RecentView: View {
                             })
                             .hSpacing(.leading)
                             
-                            CardView(income: 999, expense: 666)
-                            
-                            CustomSegmentedControl()
-                            
-                            ForEach(transactions.filter({ $0.category == selectedCategory.rawValue})) { transaction in
-                                NavigationLink(value: transaction) {
-                                    TransactionCardView(transaction: transaction)
+                            FilterTransactionViewModel(startDate: startDate, endDate: endDate) { transactions in
+                                CardView(
+                                    income: total(transactions, category: .income),
+                                    expense: total(transactions, category: .expense)
+                                )
+                                
+                                CustomSegmentedControl()
+                                
+                                ForEach(transactions.filter({ $0.category == selectedCategory.rawValue })) { transation in
+                                    NavigationLink(value: transation) {
+                                        TransactionCardView(transaction: transation)
+                                    }
                                 }
                             }
-                            
                         } header: {
                             HeaderView(size)
                         }
