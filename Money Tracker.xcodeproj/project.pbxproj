@@ -29,6 +29,7 @@
 		CC6708482B6B414B00BCB0C3 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708472B6B414B00BCB0C3 /* TransactionCardView.swift */; };
 		CC67084A2B6B423300BCB0C3 /* SwipeActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708492B6B423300BCB0C3 /* SwipeActionModel.swift */; };
 		CC67084C2B6B817300BCB0C3 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67084B2B6B817300BCB0C3 /* TransactionView.swift */; };
+		CC67084E2B6BAB2F00BCB0C3 /* FilterTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67084D2B6BAB2F00BCB0C3 /* FilterTransactionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		CC6708472B6B414B00BCB0C3 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
 		CC6708492B6B423300BCB0C3 /* SwipeActionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionModel.swift; sourceTree = "<group>"; };
 		CC67084B2B6B817300BCB0C3 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		CC67084D2B6BAB2F00BCB0C3 /* FilterTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTransactionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				CC67083B2B6A00F900BCB0C3 /* LockViewModel.swift */,
 				CC6708492B6B423300BCB0C3 /* SwipeActionModel.swift */,
+				CC67084D2B6BAB2F00BCB0C3 /* FilterTransactionViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			files = (
 				CC6708402B6A04FB00BCB0C3 /* Transaction.swift in Sources */,
 				CC67082C2B69FA7A00BCB0C3 /* Constants.swift in Sources */,
+				CC67084E2B6BAB2F00BCB0C3 /* FilterTransactionViewModel.swift in Sources */,
 				CC6708362B69FF0700BCB0C3 /* SettingView.swift in Sources */,
 				CC67084A2B6B423300BCB0C3 /* SwipeActionModel.swift in Sources */,
 				CC6708182B69F72100BCB0C3 /* ContentView.swift in Sources */,
