@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 struct TransactionView: View {
     @Environment(\.dismiss) private var dismiss
@@ -159,10 +160,8 @@ struct TransactionView: View {
             editTransaction?.category = category.rawValue
         } else {
             let transaction = Transaction(title: title, remarks: remarks, amount: amount, dateAdded: dateAdded, category: category, tintColor: tint)
-            
             context.insert(transaction)
         }
-        
         dismiss()
     }
     

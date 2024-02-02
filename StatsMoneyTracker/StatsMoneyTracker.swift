@@ -12,15 +12,15 @@ struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> WidgetEntry {
         WidgetEntry(date: Date())
     }
-
+    
     func getSnapshot(in context: Context, completion: @escaping (WidgetEntry) -> ()) {
         let entry = WidgetEntry(date: Date())
         completion(entry)
     }
-
+    
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
         var entries: [WidgetEntry] = []
-
+        
         entries.append(.init(date: .now))
         
         let timeline = Timeline(entries: entries, policy: .atEnd)
@@ -35,7 +35,7 @@ struct WidgetEntry: TimelineEntry {
 
 struct StatsMoneyTrackerEntryView : View {
     var entry: Provider.Entry
-
+    
     var body: some View {
         VStack {
             FilterTransactionViewModel(startDate: .now.startOfMonth, endDate: .now.endOfMonth) { transactions in
@@ -50,17 +50,12 @@ struct StatsMoneyTrackerEntryView : View {
 
 struct StatsMoneyTracker: Widget {
     let kind: String = "StatsMoneyTracker"
-
+    
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
-            if #available(iOS 17.0, *) {
-                StatsMoneyTrackerEntryView(entry: entry)
-                    .containerBackground(.fill.tertiary, for: .widget)
-            } else {
-                StatsMoneyTrackerEntryView(entry: entry)
-                    .padding()
-                    .background()
-            }
+            StatsMoneyTrackerEntryView(entry: entry)
+                .containerBackground(.fill.tertiary, for: .widget)
+                .modelContainer(for: Transaction.self)
         }
         .supportedFamilies([.systemMedium, .systemLarge])
         .contentMarginsDisabled()

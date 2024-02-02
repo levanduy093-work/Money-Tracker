@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 struct TransactionCardView: View {
     @Environment(\.modelContext) private var context
