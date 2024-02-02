@@ -11,7 +11,6 @@
 		CC6708182B69F72100BCB0C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708172B69F72100BCB0C3 /* ContentView.swift */; };
 		CC67081A2B69F72200BCB0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6708192B69F72200BCB0C3 /* Assets.xcassets */; };
 		CC67081D2B69F72200BCB0C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC67081C2B69F72200BCB0C3 /* Preview Assets.xcassets */; };
-		CC6708282B69F78800BCB0C3 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708272B69F78800BCB0C3 /* View+Ext.swift */; };
 		CC67082A2B69F9A900BCB0C3 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708292B69F9A900BCB0C3 /* Date+Ext.swift */; };
 		CC67082C2B69FA7A00BCB0C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67082B2B69FA7A00BCB0C3 /* Constants.swift */; };
 		CC67082E2B69FA9F00BCB0C3 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67082D2B69FA9F00BCB0C3 /* IntroView.swift */; };
@@ -30,7 +29,47 @@
 		CC67084A2B6B423300BCB0C3 /* SwipeActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708492B6B423300BCB0C3 /* SwipeActionModel.swift */; };
 		CC67084C2B6B817300BCB0C3 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67084B2B6B817300BCB0C3 /* TransactionView.swift */; };
 		CC67084E2B6BAB2F00BCB0C3 /* FilterTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67084D2B6BAB2F00BCB0C3 /* FilterTransactionViewModel.swift */; };
+		CC6708502B6CABB500BCB0C3 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67084F2B6CABB500BCB0C3 /* ChartModel.swift */; };
+		CC6708592B6CBCAC00BCB0C3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6708582B6CBCAC00BCB0C3 /* WidgetKit.framework */; };
+		CC67085B2B6CBCAC00BCB0C3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC67085A2B6CBCAC00BCB0C3 /* SwiftUI.framework */; };
+		CC67085E2B6CBCAC00BCB0C3 /* StatsMoneyTrackerBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67085D2B6CBCAC00BCB0C3 /* StatsMoneyTrackerBundle.swift */; };
+		CC6708602B6CBCAC00BCB0C3 /* StatsMoneyTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67085F2B6CBCAC00BCB0C3 /* StatsMoneyTracker.swift */; };
+		CC6708622B6CBCAE00BCB0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6708612B6CBCAE00BCB0C3 /* Assets.xcassets */; };
+		CC6708662B6CBCAE00BCB0C3 /* StatsMoneyTrackerExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CC6708562B6CBCAC00BCB0C3 /* StatsMoneyTrackerExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC67086C2B6CBDEB00BCB0C3 /* FilterTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67084D2B6BAB2F00BCB0C3 /* FilterTransactionViewModel.swift */; };
+		CC67086D2B6CBE2C00BCB0C3 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708292B69F9A900BCB0C3 /* Date+Ext.swift */; };
+		CC67086F2B6CBE6100BCB0C3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708432B6A078900BCB0C3 /* CardView.swift */; };
+		CC6708702B6CBE7900BCB0C3 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708272B69F78800BCB0C3 /* View+Ext.swift */; };
+		CC6708712B6CBE7900BCB0C3 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708272B69F78800BCB0C3 /* View+Ext.swift */; };
+		CC6708722B6CBE8C00BCB0C3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708392B69FFF200BCB0C3 /* Category.swift */; };
+		CC6708732B6CBF1D00BCB0C3 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67083F2B6A04FB00BCB0C3 /* Transaction.swift */; };
+		CC6708742B6CBF9500BCB0C3 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6708412B6A051D00BCB0C3 /* TintColor.swift */; };
+		CC6708752B6CBF9E00BCB0C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67082B2B69FA7A00BCB0C3 /* Constants.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC6708642B6CBCAE00BCB0C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC67080A2B69F72100BCB0C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6708552B6CBCAC00BCB0C3;
+			remoteInfo = StatsMoneyTrackerExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC67086A2B6CBCAE00BCB0C3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CC6708662B6CBCAE00BCB0C3 /* StatsMoneyTrackerExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CC6708122B69F72100BCB0C3 /* Money Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +96,16 @@
 		CC6708492B6B423300BCB0C3 /* SwipeActionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionModel.swift; sourceTree = "<group>"; };
 		CC67084B2B6B817300BCB0C3 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 		CC67084D2B6BAB2F00BCB0C3 /* FilterTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTransactionViewModel.swift; sourceTree = "<group>"; };
+		CC67084F2B6CABB500BCB0C3 /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		CC6708512B6CBC8500BCB0C3 /* Money Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Money Tracker.entitlements"; sourceTree = "<group>"; };
+		CC6708562B6CBCAC00BCB0C3 /* StatsMoneyTrackerExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StatsMoneyTrackerExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6708582B6CBCAC00BCB0C3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CC67085A2B6CBCAC00BCB0C3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CC67085D2B6CBCAC00BCB0C3 /* StatsMoneyTrackerBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsMoneyTrackerBundle.swift; sourceTree = "<group>"; };
+		CC67085F2B6CBCAC00BCB0C3 /* StatsMoneyTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsMoneyTracker.swift; sourceTree = "<group>"; };
+		CC6708612B6CBCAE00BCB0C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC6708632B6CBCAE00BCB0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC67086B2B6CBCB700BCB0C3 /* StatsMoneyTrackerExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatsMoneyTrackerExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,13 +116,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC6708532B6CBCAC00BCB0C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC67085B2B6CBCAC00BCB0C3 /* SwiftUI.framework in Frameworks */,
+				CC6708592B6CBCAC00BCB0C3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		CC6708092B69F72100BCB0C3 = {
 			isa = PBXGroup;
 			children = (
+				CC67086B2B6CBCB700BCB0C3 /* StatsMoneyTrackerExtension.entitlements */,
 				CC6708142B69F72100BCB0C3 /* Money Tracker */,
+				CC67085C2B6CBCAC00BCB0C3 /* StatsMoneyTracker */,
+				CC6708572B6CBCAC00BCB0C3 /* Frameworks */,
 				CC6708132B69F72100BCB0C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				CC6708122B69F72100BCB0C3 /* Money Tracker.app */,
+				CC6708562B6CBCAC00BCB0C3 /* StatsMoneyTrackerExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +151,7 @@
 		CC6708142B69F72100BCB0C3 /* Money Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				CC6708512B6CBC8500BCB0C3 /* Money Tracker.entitlements */,
 				CC6708262B69F77800BCB0C3 /* Extensions */,
 				CC6708252B69F75F00BCB0C3 /* Model */,
 				CC6708242B69F75000BCB0C3 /* ViewModel */,
@@ -135,6 +198,7 @@
 				CC6708392B69FFF200BCB0C3 /* Category.swift */,
 				CC67083F2B6A04FB00BCB0C3 /* Transaction.swift */,
 				CC6708412B6A051D00BCB0C3 /* TintColor.swift */,
+				CC67084F2B6CABB500BCB0C3 /* ChartModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +236,26 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		CC6708572B6CBCAC00BCB0C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC6708582B6CBCAC00BCB0C3 /* WidgetKit.framework */,
+				CC67085A2B6CBCAC00BCB0C3 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC67085C2B6CBCAC00BCB0C3 /* StatsMoneyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				CC67085D2B6CBCAC00BCB0C3 /* StatsMoneyTrackerBundle.swift */,
+				CC67085F2B6CBCAC00BCB0C3 /* StatsMoneyTracker.swift */,
+				CC6708612B6CBCAE00BCB0C3 /* Assets.xcassets */,
+				CC6708632B6CBCAE00BCB0C3 /* Info.plist */,
+			);
+			path = StatsMoneyTracker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,15 +266,34 @@
 				CC67080E2B69F72100BCB0C3 /* Sources */,
 				CC67080F2B69F72100BCB0C3 /* Frameworks */,
 				CC6708102B69F72100BCB0C3 /* Resources */,
+				CC67086A2B6CBCAE00BCB0C3 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CC6708652B6CBCAE00BCB0C3 /* PBXTargetDependency */,
 			);
 			name = "Money Tracker";
 			productName = "Money Tracker";
 			productReference = CC6708122B69F72100BCB0C3 /* Money Tracker.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CC6708552B6CBCAC00BCB0C3 /* StatsMoneyTrackerExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6708672B6CBCAE00BCB0C3 /* Build configuration list for PBXNativeTarget "StatsMoneyTrackerExtension" */;
+			buildPhases = (
+				CC6708522B6CBCAC00BCB0C3 /* Sources */,
+				CC6708532B6CBCAC00BCB0C3 /* Frameworks */,
+				CC6708542B6CBCAC00BCB0C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatsMoneyTrackerExtension;
+			productName = StatsMoneyTrackerExtension;
+			productReference = CC6708562B6CBCAC00BCB0C3 /* StatsMoneyTrackerExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -203,6 +306,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					CC6708112B69F72100BCB0C3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CC6708552B6CBCAC00BCB0C3 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -221,6 +327,7 @@
 			projectRoot = "";
 			targets = (
 				CC6708112B69F72100BCB0C3 /* Money Tracker */,
+				CC6708552B6CBCAC00BCB0C3 /* StatsMoneyTrackerExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +342,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC6708542B6CBCAC00BCB0C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6708622B6CBCAE00BCB0C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -244,6 +359,7 @@
 			files = (
 				CC6708402B6A04FB00BCB0C3 /* Transaction.swift in Sources */,
 				CC67082C2B69FA7A00BCB0C3 /* Constants.swift in Sources */,
+				CC6708502B6CABB500BCB0C3 /* ChartModel.swift in Sources */,
 				CC67084E2B6BAB2F00BCB0C3 /* FilterTransactionViewModel.swift in Sources */,
 				CC6708362B69FF0700BCB0C3 /* SettingView.swift in Sources */,
 				CC67084A2B6B423300BCB0C3 /* SwipeActionModel.swift in Sources */,
@@ -253,20 +369,45 @@
 				CC6708462B6A284700BCB0C3 /* DateFilterView.swift in Sources */,
 				CC6708162B69F72100BCB0C3 /* Money_TrackerApp.swift in Sources */,
 				CC6708382B69FF2F00BCB0C3 /* Tab.swift in Sources */,
-				CC6708282B69F78800BCB0C3 /* View+Ext.swift in Sources */,
 				CC6708322B69FEEB00BCB0C3 /* SearchView.swift in Sources */,
 				CC67082A2B69F9A900BCB0C3 /* Date+Ext.swift in Sources */,
 				CC6708302B69FEE400BCB0C3 /* RecentView.swift in Sources */,
 				CC67082E2B69FA9F00BCB0C3 /* IntroView.swift in Sources */,
 				CC67083C2B6A00FA00BCB0C3 /* LockViewModel.swift in Sources */,
 				CC6708422B6A051D00BCB0C3 /* TintColor.swift in Sources */,
+				CC6708702B6CBE7900BCB0C3 /* View+Ext.swift in Sources */,
 				CC67084C2B6B817300BCB0C3 /* TransactionView.swift in Sources */,
 				CC6708442B6A078900BCB0C3 /* CardView.swift in Sources */,
 				CC67083A2B69FFF200BCB0C3 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC6708522B6CBCAC00BCB0C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC67085E2B6CBCAC00BCB0C3 /* StatsMoneyTrackerBundle.swift in Sources */,
+				CC6708602B6CBCAC00BCB0C3 /* StatsMoneyTracker.swift in Sources */,
+				CC6708732B6CBF1D00BCB0C3 /* Transaction.swift in Sources */,
+				CC6708712B6CBE7900BCB0C3 /* View+Ext.swift in Sources */,
+				CC67086C2B6CBDEB00BCB0C3 /* FilterTransactionViewModel.swift in Sources */,
+				CC6708752B6CBF9E00BCB0C3 /* Constants.swift in Sources */,
+				CC67086D2B6CBE2C00BCB0C3 /* Date+Ext.swift in Sources */,
+				CC67086F2B6CBE6100BCB0C3 /* CardView.swift in Sources */,
+				CC6708742B6CBF9500BCB0C3 /* TintColor.swift in Sources */,
+				CC6708722B6CBE8C00BCB0C3 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC6708652B6CBCAE00BCB0C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6708552B6CBCAC00BCB0C3 /* StatsMoneyTrackerExtension */;
+			targetProxy = CC6708642B6CBCAE00BCB0C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CC67081E2B69F72200BCB0C3 /* Debug */ = {
@@ -391,8 +532,10 @@
 		CC6708212B69F72200BCB0C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Money Tracker/Money Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Money Tracker/Preview Content\"";
@@ -409,7 +552,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.dandi.Money-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = co.dandi.MoneyTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -420,8 +563,10 @@
 		CC6708222B69F72200BCB0C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Money Tracker/Money Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Money Tracker/Preview Content\"";
@@ -438,8 +583,64 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.dandi.Money-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = co.dandi.MoneyTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC6708682B6CBCAE00BCB0C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StatsMoneyTrackerExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BKM5XA3TAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StatsMoneyTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StatsMoneyTracker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.dandi.MoneyTracker.StatsMoneyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC6708692B6CBCAE00BCB0C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StatsMoneyTrackerExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BKM5XA3TAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StatsMoneyTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StatsMoneyTracker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.dandi.MoneyTracker.StatsMoneyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,6 +664,15 @@
 			buildConfigurations = (
 				CC6708212B69F72200BCB0C3 /* Debug */,
 				CC6708222B69F72200BCB0C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6708672B6CBCAE00BCB0C3 /* Build configuration list for PBXNativeTarget "StatsMoneyTrackerExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6708682B6CBCAE00BCB0C3 /* Debug */,
+				CC6708692B6CBCAE00BCB0C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
